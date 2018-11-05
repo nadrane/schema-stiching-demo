@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es2017", "esnext"],
+    "outDir": "./ts-build",
+    "target": "es6",
+    "moduleResolution": "node"
+  }
+}

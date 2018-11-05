@@ -1,0 +1,16 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-eslint-rules", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "indent": [true, "spaces"],
+    "interface-name": [true, "never-prefix"],
+    "no-unused-expression": true,
+    "cyclomatic-complexity": [true, 6],
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "object-literal-sort-keys": [false],
+    "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
+    "quotemark": [true, "single"]
+  },
+  "rulesDirectory": ["tslint-plugin-prettier"]
+}

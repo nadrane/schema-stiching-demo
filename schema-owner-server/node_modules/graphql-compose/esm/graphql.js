@@ -1,0 +1,2 @@
+/*  strict */
+export * from 'graphql';
